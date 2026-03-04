@@ -1,0 +1,109 @@
+#do{
+    border-style: dotted;
+}
+
+#da{
+    border-style: dashed;
+}
+
+#so{
+    border-style: solid;
+}
+
+#dou{
+    border-style: double;
+}
+
+#gr{
+    border-style: groove;
+}
+
+#ri{
+    border-style: ridge;
+}
+
+#in{
+    border-style: inset;
+}
+
+#ou{
+    border-style: outset;
+}
+
+#no{
+    border-style: none;
+}
+
+#hi{
+    border-style: hidden;
+}
+
+#mi{
+    border-style: dotted dashed solid double;
+}
+
+#ex{
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    border: solid 2px black;
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 7px 6px rgb(73, 14, 238);
+}
+
+p{
+    display: inline;
+}
+
+a{
+    display: inline;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+#d1{
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    border-radius: 15px;
+}
+
+#d2{
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 20%;    
+    right: 0%;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#d3{
+    background-color: rgb(255, 31, 31);
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 50%;    
+    right: 0%;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+}
